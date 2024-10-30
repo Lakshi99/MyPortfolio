@@ -11,12 +11,13 @@ export const Navbar = () => {
       <img className={styles.menuBtn} src={menuOpen
       ? ("/src/assets/nav/closeIcon.png")
       : ("/src/assets/nav/menuIcon.png")
-      
       }
        alt="menu icon" 
        onClick={() => setMenuOpen(!menuOpen)}
        />
-        <ul className={styles.menuItems}>
+        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+        onClick={() => setMenuOpen(false)}
+        >
             <li>
             <a href="/">About Me</a>
             </li>
