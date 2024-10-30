@@ -21,7 +21,7 @@
 }
 
 .title {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
@@ -42,67 +42,110 @@
     -webkit-background-clip: text;
 }
 
-/* .highlightName {
-    color: rgb(28, 24, 63); /* Default color for your name */
-    
-  /* transition: color 0.3s ease;
-  cursor: pointer;
-} */
-
-/* .highlightName:hover {
-    color: #7b2121; /* Change to a different shade on hover */
-  /* } */
-
- 
   
 
 .description {
-    font-size: 30px;
+    font-size: 20px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
-    color: var(--color-text);
+    background-color: rgb(43, 42, 42);
+    color: white;
     border-radius: 100px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
 }
+
+.contactBtn:hover {
+    transform: scale(1.1);
+    background-color: #29292b;
+  }
 .heroImg {
-    border-radius: 80%;
-    width: 50%;
-    height: 50%;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    border: 5px solid #a8a4b4;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-.highlightName {
-    color: rgb(147, 116, 116);
-    overflow: hidden;
-    border-right: 3px solid rgb(28, 93, 105); /* Adds a cursor-like effect */
-    white-space: nowrap;
-    width: 0;
-    animation: typewriter 2s steps(20) forwards, blink 0.5s step-end infinite alternate;
+
+  
+
+  .heroImg {
+   
+    z-index: 1;
+  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
   }
   
-  /* Typewriter animation */
-  @keyframes typewriter {
-    from {
-      width: 0;
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
     }
-    to {
-      width: 100%;
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, -0px);
     }
   }
+
+  .topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(61, 63, 65, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
   
-  /* Blinking cursor effect */
-  @keyframes blink {
-    from {
-      border-color: transparent;
+  .bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background:  rgba(61, 63, 65, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  
+  @media screen and (max-width: 830px) {
+    .container {
+      flex-direction: column-reverse;
     }
-    to {
-      border-color: rgb(6, 64, 73);
+  
+    .content {
+      align-items: center;
     }
+  }
+
+  .highlightName {
+    color: black;
+    font-weight: bold;
+    animation: colorChange 3s ease infinite;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.2); */
+  }
+  
+  @keyframes colorChange {
+    0% { color: #ede8e6; }
+    50% { color: rgb(54, 46, 46); }
+    100% { color: #453d3b; }
   }
   
