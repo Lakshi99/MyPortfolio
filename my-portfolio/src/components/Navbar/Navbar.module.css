@@ -36,8 +36,10 @@
 
 .menuItems a {
     font-size: 25px;
-    color: var(--color-text);
+    /* color: var(--color-text); */
     text-decoration: none;
+    color: rgb(240, 9, 167);
+    font-weight: bold;
 }
 
 .menuBtn {
