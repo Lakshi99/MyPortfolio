@@ -3,8 +3,10 @@
 :root {
    --color-text: #ffffff;
    --color-primary: #576cbc;
+ 
    --color-secondary: #060e1d;
-    --color-dark: radial-gradient(circle, #ffffff, #f2f2f2, #cfcfcf); 
+    /* --color-dark: radial-gradient(circle, #ffffff, #f2f2f2, #cfcfcf); */
+    --color-dark: radial-gradient(circle, #137ea4, #662626, #163c53);  
   
    /* --color-bg: #171616f2; */
    /* body {
@@ -15,9 +17,9 @@
     } */
     
     
-    body {
-      background: radial-gradient(circle, #0e0e0cda, #191818, #191816); /* Light center fading to gray */
-    }
+    /* body {
+      background: radial-gradient(circle, #051637da, #0f243c, #0b042b); Light center fading to gray
+    } */
         
        
 

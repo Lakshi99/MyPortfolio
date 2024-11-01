@@ -15,6 +15,8 @@ const Hero = () => {
     <img src={HeroImage} alt="Hero" className={styles.heroImg} />
     <div className={styles.topblur} />
     <div className={styles.bottomblur} />
+   
+
 
   </section>
     
