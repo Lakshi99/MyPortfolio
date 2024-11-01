@@ -6,7 +6,8 @@ const About = () => {
     <h2>About</h2>
     <div className="div"><img></img></div>
     </section>
+  )
+};
 
-}
 
 export default About
