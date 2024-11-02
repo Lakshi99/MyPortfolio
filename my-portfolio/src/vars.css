@@ -3,11 +3,14 @@
 :root {
    --color-text: #ffffff;
    --color-primary: #576cbc;
+   --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
  
-   --color-secondary: #060e1d;
+   /* --color-secondary: #060e1d; */
     /* --color-dark: radial-gradient(circle, #ffffff, #f2f2f2, #cfcfcf); */
-    --color-dark: radial-gradient(circle, #137ea4, #662626, #163c53);  
-  
+    /* --color-dark: radial-gradient(circle, #137ea4, #662626, #163c53);  
+   */
    /* --color-bg: #171616f2; */
    /* body {
       background: radial-gradient(circle, #621e49, #4d0836, #930985); /* Light center fading to gray */
