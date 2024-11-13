@@ -27,7 +27,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: flex-start;
     z-index: 1;
   }
   

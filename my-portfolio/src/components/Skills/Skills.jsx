@@ -15,6 +15,10 @@ import htmlImage from "../../assets/skills/html.png";
 import mongodbImage from "../../assets/skills/mongodb.png";
 import mysqlImage from "../../assets/skills/mysql.png";
 import tailwindcssImage from "../../assets/skills/Tailwind CSS.png";
+import trelloImage from "../../assets/skills/trello.png";
+import netImage from "../../assets/skills/net.png";
+import githubImage from "../../assets/skills/github.png";
+import muiImage from "../../assets/skills/mui.png";
 
 
 const imageMap = {
@@ -30,7 +34,11 @@ const imageMap = {
   "HTML": htmlImage,
   "MongoDB": mongodbImage,
   "MYSQL": mysqlImage,
-  "Tailwind CSS": tailwindcssImage 
+  "Tailwind CSS": tailwindcssImage,
+  "MUI": muiImage,
+  "Trello": trelloImage,
+  "Github": githubImage,
+  "Net": netImage
 };
 
 

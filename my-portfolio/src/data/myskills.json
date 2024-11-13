@@ -63,6 +63,25 @@
     {
         "title": "Blender",
         "imageSrc": "skills/blender.png"
-    }
+    }, 
+ 
+    {
+        "title": "MUI",
+        "imageSrc": "skills/mui.png"
+    },
 
+    {
+        "title": "Trello",
+        "imageSrc": "skills/trello.png"
+    },
+
+    {
+        "title": "Github",
+        "imageSrc": "skills/github.png"
+    },
+
+    {
+        "title": "Net",
+        "imageSrc": "skills/net.png"
+    }
 ]
