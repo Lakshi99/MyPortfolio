@@ -23,10 +23,12 @@
   }
   
   .skills {
-    width: 45%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
+    justify-content: space-evenly;
+    z-index: 1;
   }
   
   .skill {
@@ -34,6 +36,12 @@
     flex-direction: column;
     align-items: center;
     gap: 11px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .skill:hover {
+    transform: scale(1.05); /* Slightly scale the skill when hovered */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a shadow effect when hovered */
   }
   
   .skillImageContainer {
@@ -44,11 +52,21 @@
     justify-content: center;
     width: 120px;
     height: 120px;
+    transition: transform 0.3s ease; 
   }
+
+   .skill:hover .skillImageContainer {
+    transform: scale(1.1); /* Slightly scale the image inside the skill when hovered */
+   } 
   
   .skillImageContainer img {
     width: 75px;
+     transition: transform 0.3s ease; 
   } 
+
+   .skill:hover .skillImageContainer img {
+    transform: scale(1.1); /* Scale the image when hovered */
+   }  
 
   
   
@@ -56,4 +74,23 @@
     font-size: 25px;
     font-family: var(--font-roboto);
     font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .skill:hover p {
+    color: var(--color-primary); /* Change text color when hovered */
+  }
+
+  @media screen and (max-width: 830px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 34px;
+    }
+  
+    .skills {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+    }
   }

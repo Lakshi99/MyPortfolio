@@ -2,31 +2,57 @@ import React from 'react'
 import styles from "./Skills.module.css";
 import myskills from "../../data/myskills.json";
 
-  import {getImageurl} from '../../utils';
+import jsImage from "../../assets/skills/js.png";
+import reactImage from "../../assets/skills/react.png";
+import nodeImage from "../../assets/skills/node.png";
+import expressImage from "../../assets/skills/Express.png";
+import blenderImage from "../../assets/skills/Blender.png";
+import bootstrapImage from "../../assets/skills/Bootstrap.png";
+import cImage from "../../assets/skills/c.png";
+import cssImage from "../../assets/skills/css.png";
+import figmaImage from "../../assets/skills/figma.png";
+import htmlImage from "../../assets/skills/html.png";
+import mongodbImage from "../../assets/skills/mongodb.png";
+import mysqlImage from "../../assets/skills/mysql.png";
+import tailwindcssImage from "../../assets/skills/Tailwind CSS.png";
+
+
+const imageMap = {
+  "JavaScript": jsImage,
+  "React": reactImage,
+  "Node JS": nodeImage,
+  "ExpressJS": expressImage,
+  "Blender": blenderImage,
+  "Bootstrap": bootstrapImage,
+  "C": cImage,
+  "CSS": cssImage,
+  "Figma": figmaImage,
+  "HTML": htmlImage,
+  "MongoDB": mongodbImage,
+  "MYSQL": mysqlImage,
+  "Tailwind CSS": tailwindcssImage 
+};
 
 
 const Skills = () => {
   return (
-    <section className={styles.container} id='myskills'>
+    <section className={styles.container} id="myskills">
       <h2 className={styles.title}>My Skills</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-        {myskills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageurl(skill.imageSrc)} alt={skill.title} /> 
-                </div>
-                <p>{skill.title}</p>
+          {myskills.map((skill, id) => (
+            <div key={id} className={styles.skill}>
+              <div className={styles.skillImageContainer}>
+                {/* Use imageMap to retrieve the correct image */}
+                <img src={imageMap[skill.title]} alt={skill.title} />
               </div>
-            );
-          })}
+              <p>{skill.title}</p>
+            </div>
+          ))}
         </div>
-         </div> 
-      
-
+      </div>
     </section>
   );
 };
 
-export default Skills
+export default Skills;
