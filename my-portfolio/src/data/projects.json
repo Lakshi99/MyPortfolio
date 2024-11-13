@@ -2,7 +2,7 @@
   {
     "title": "InternX",
     "description": "InternX is an innovative platform designed to simplify the process of finding the ideal internship in the rapidly changing IT industry. The platform aims to bridge the gap between students and companies by providing a seamless and efficient approach to internship discovery and securement. ",
-    // "image": "projects/InternX.png",
+   
     "imageSrc": "projects/InternX.png",
     "github": "https://github.com/Lakshi99/InternX",
     "liveDemo": "https://www.linkedin.com/posts/lakshika-bandara-845607219_internships-careeropportunities-itindustry-activity-7245481777526366208-hXiv?utm_source=share&utm_medium=member_desktop"
@@ -10,7 +10,7 @@
   {
     "title": "Explore Express",
     "description": "A web application that streamlines travel itinerary planning and tourism services that offers personalized travel itineraries, interactive maps, currency converter, and real-time weather forecasting.",
-    "image": "/assets/projects/project2.png",
+    "imageSrc": "projects/Explore.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
     "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
   }

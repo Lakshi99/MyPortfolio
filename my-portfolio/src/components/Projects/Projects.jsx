@@ -3,10 +3,11 @@ import styles from './Projects.module.css';
 import projectsData from '../../data/projects.json'; // Importing JSON data of projects
 
 import internxImage from "../../assets/projects/InternX.png";
+import exploreImage from "../../assets/projects/Explore.png";
 
 const imageMap = {
   "InternX": internxImage,
-  
+   "Explore Express": exploreImage
 };
 
 
@@ -17,7 +18,8 @@ const Projects = () => {
       <div className={styles.projectsContainer}>
         {projectsData.map((project, index) => (
           <div key={index} className={styles.projectCard}>
-            <img src={project.image} alt={project.title} className={styles.projectImage} />
+            {/* <img src={project.image} alt={project.title} className={styles.projectImage} /> */}
+            <img src={imageMap[project.title]} alt={project.title} />
             <div className={styles.projectContent}>
               <h3 className={styles.projectTitle}>{project.title}</h3>
               <p className={styles.projectDescription}>{project.description}</p>
@@ -27,7 +29,7 @@ const Projects = () => {
                 </a>
                 {project.liveDemo && (
                   <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
-                    Live Demo
+                    Demo
                   </a>
                 )}
               </div>
