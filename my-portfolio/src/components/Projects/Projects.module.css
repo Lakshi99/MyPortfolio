@@ -132,3 +132,15 @@
    color: #005f99; 
 
 }
+
+.techStack {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.techIcon {
+  width: 30px;
+  height: 30px;
+}
