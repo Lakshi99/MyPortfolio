@@ -13,5 +13,13 @@
     "imageSrc": "projects/Explore.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
     "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "title": "Lecture Hall Allocation System",
+    "description": "A system to optimize lecture hall scheduling by assigning halls based on course requirements, student capacity, and availability. This system reduces conflicts and improves management, offering scalability and ease of use for university administrators.",
+    "imageSrc": "projects/Lecture.png",
+    "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
+    "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
   }
+
 ]
