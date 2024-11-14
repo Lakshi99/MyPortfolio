@@ -4,10 +4,12 @@ import projectsData from '../../data/projects.json'; // Importing JSON data of p
 
 import internxImage from "../../assets/projects/InternX.png";
 import exploreImage from "../../assets/projects/Explore.png";
+import lectureImage from "../../assets/projects/Lecture.png";
 
 const imageMap = {
   "InternX": internxImage,
-   "Explore Express": exploreImage
+   "Explore Express": exploreImage,
+   "Lecture Hall Allocation System": lectureImage
 };
 
 
