@@ -38,7 +38,7 @@ const imageMap = {
   "MUI": muiImage,
   "Trello": trelloImage,
   "Github": githubImage,
-  "Net": netImage
+  ".Net": netImage
 };
 
 
