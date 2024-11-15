@@ -27,12 +27,12 @@
     border-left: 3px solid #007bff;
   }
   
-  .timeline-item {
+  .timelineItem {
     position: relative;
     margin-bottom: 20px;
   }
   
-  .timeline-dot {
+  .timelineDot {
     position: absolute;
     left: -10px;
     top: 5px;
@@ -44,7 +44,7 @@
     box-shadow: 0 0 0 2px #007bff;
   }
   
-  .timeline-content {
+  .timelineContent {
     padding-left: 20px;
     margin-left: 20px;
     background: #f9f9f9;

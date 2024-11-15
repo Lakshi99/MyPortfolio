@@ -14,11 +14,11 @@ const Journey = () => {
   return (
     <div className={styles.timelineContainer}>
       <h2 className={styles.timelineHeade}>My Journey</h2>
-      <div className="timeline">
+      <div className={styles.timeline}>
         {events.map((event, index) => (
-          <div key={index} className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
+          <div key={index} className={styles.timelineItem}>
+            <div className={styles.timelineDot}></div>
+            <div className={styles.timelineContent}>
               <h3>{event.year}</h3>
               <h4>{event.title}</h4>
               <p>{event.description}</p>
