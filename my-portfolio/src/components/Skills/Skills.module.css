@@ -54,10 +54,17 @@
     width: 120px;
     height: 120px;
     transition: transform 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Subtle default glow */
   }
 
    .skill:hover .skillImageContainer {
     transform: scale(1.1); /* Slightly scale the image inside the skill when hovered */
+    /* box-shadow: 0 8px 20px rgba(0, 255, 255, 0.6), 0 0 15px rgba(0, 255, 255, 0.4);  */
+    /* Brighter glow on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 
+              0 0 15px 4px rgba(12, 114, 209, 0.6);
+
+              border: 2px solid rgba(17, 115, 181, 0.6);
    } 
   
   .skillImageContainer img {

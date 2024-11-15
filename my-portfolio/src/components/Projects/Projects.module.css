@@ -55,7 +55,7 @@
   border-radius: 10px;
   /* background: linear-gradient(180deg, #576cbc 0%, #132a53 100%); */
   /* box-shadow: 0 16px 14px 0 #04152d; */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);  
+  /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);   */
   padding: 20px;
   max-width: 320px;
 
@@ -67,12 +67,20 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
+
+  border: 2px solid transparent;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .projectCard:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
   background-size: 100% 100%;
+
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 
+              0 0 15px 4px rgba(12, 114, 209, 0.6);
+
+              border: 2px solid rgba(17, 115, 181, 0.6);
   
 }
 
