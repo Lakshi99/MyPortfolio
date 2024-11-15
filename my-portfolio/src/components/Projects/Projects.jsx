@@ -18,10 +18,10 @@ const imageMap = {
 };
 
 const techStackIcons = {
-  react: reactImage,
-  nodejs: nodeImage,
-  mongodb: mongodbImage,
-  expressjs: expressImage
+  "react": reactImage,
+  "nodejs": nodeImage,
+  "mongodb": mongodbImage,
+  "expressjs": expressImage
 };
 
 
@@ -37,11 +37,11 @@ const Projects = () => {
             <div className={styles.projectContent}>
               <h3 className={styles.projectTitle}>{project.title}</h3>
               <p className={styles.projectDescription}>{project.description}</p>
-              {/* <div className={styles.techStack}>
+               {/* <div className={styles.techStack}>
                 {project.techStack.map((tech, idx) => (
                   <img key={idx} src={techStackIcons[tech]} alt={tech} className={styles.techIcon} />
                 ))}
-              </div> */}
+              </div>  */}
               <div className={styles.projectLinks}>
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
                   GitHub
