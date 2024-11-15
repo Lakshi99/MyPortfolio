@@ -1,7 +1,7 @@
 [
   {
     "title": "InternX",
-    "description": "InternX is an innovative platform designed to simplify the process of finding the ideal internship in the rapidly changing IT industry. The platform aims to bridge the gap between students and companies by providing a seamless and efficient approach to internship discovery and securement. ",
+    "description": "InternX is an innovative platform designed to simplify the process of finding the ideal internship for undrgraduates in the rapidly changing IT industry. The platform aims to bridge the gap between students and companies by providing a seamless and efficient approach to internship discovery and securement. ",
    
     "imageSrc": "projects/InternX.png",
     "github": "https://github.com/Lakshi99/InternX",
@@ -10,14 +10,15 @@
   },
   {
     "title": "Explore Express",
-    "description": "A web application that streamlines travel itinerary planning and tourism services that offers personalized travel itineraries, interactive maps, currency converter, and real-time weather forecasting.",
+    "description": "A website simplifies travel planning by offering personalized itineraries, interactive maps, a currency converter, and real-time weather forecasts that helps travelers create customized trips, manage finances, and stay informed about weather conditions, ensuring a smooth and efficient travel experience.",
+
     "imageSrc": "projects/Explore.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
     "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
   },
   {
     "title": "Lecture Hall Allocation System",
-    "description": "A system to optimize lecture hall scheduling by assigning halls based on course requirements, student capacity, and availability. This system reduces conflicts and improves management, offering scalability and ease of use for university administrators.",
+    "description": "A system to optimize lecture hall scheduling by assigning halls based on course requirements, student capacity, and availability. This systm reduces conflicts and improves management, offering scalability and ease of use for university administrators.",
     "imageSrc": "projects/Lecture.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
     "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
