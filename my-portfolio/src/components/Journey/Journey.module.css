@@ -75,10 +75,13 @@
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 0 0 3px #007bff;
+    box-shadow: 0 0 0 3px #0263cb;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: 50px;
+    
   }
   
   .timelineContent {
@@ -126,5 +129,17 @@
     margin: 0;
     color: #666;
     font-size: 0.9em;
+  }
+
+  .timelineDot:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background-size: 100% 100%;
+  
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 
+                0 0 15px 4px rgba(12, 114, 209, 0.6);
+  
+                border: 2px solid rgba(17, 115, 181, 0.6);
+    
   }
   

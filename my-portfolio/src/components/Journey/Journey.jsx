@@ -1,13 +1,17 @@
 import React from "react";
 import styles from './Journey.module.css';
 
+import sabLogo from "../../assets/journey/sab.png";
+import sjbLogo from "../../assets/journey/sjb.jpg";
+import aquinasLogo from "../../assets/journey/aquinas.jpg";
+
 const Journey = () => {
   const events = [
-    { year: "2021", title: "Started Undergraduate Journey", description: "Began pursuing a degree in Software Engineering.", logo: "/path/to/university-logo.png" },
-    { year: "2023", title: "Code with WIE Finalist", description: "Top 10 finalist among 100+ teams in the competition.", logo: "/path/to/code-wie-logo.png" },
-    { year: "2024", title: "InternX Project", description: "Developed an internship web app as a mini-project.", logo: "/path/to/internx-logo.png" },
-    { year: "2024", title: "Explore Express", description: "Worked as a Frontend Developer for a group project.", logo: "/path/to/explore-express-logo.png" },
-    { year: "2024", title: "Library Management System", description: "Built a MERN stack project for managing libraries.", logo: "/path/to/library-logo.png" },
+    { year: "2021", title: "BSc.Hons in Software Engineering", description: "Sabaragamuwa University of Sri Lanka", logo: sabLogo },
+    { year: "2020", title: "Certificate in English Language", description: "Aquinas College of Higher Studies", logo: aquinasLogo},
+    { year: "2019", title: "Advanced Level", description: "St.Joseph's Balika Maha Vidyalaya, Kegalle", logo: sjbLogo },
+    { year: "2015", title: "Ordinary Level", description: "St.Joseph's Balika Maha Vidyalaya, Kegalle", logo: sjbLogo },
+  
   ];
 
   return (
