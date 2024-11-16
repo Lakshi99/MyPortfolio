@@ -11,29 +11,58 @@
   }
   
   .timelineHeader {
-    /* text-align: center;
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #333;
-    font-size: 35px; */
+  
+  color: var(--color-text);
+  font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 40px;
+    
   }
   
   .timeline {
     position: relative;
     padding-left: 40px;
-    border-left: 3px solid #007bff;
+    border-left: 3px solid #007bff; 
+    position: relative;
+  padding: 0;
   }
+
+  .timelineLine {
+    position: absolute;
+    width: 3px;
+    background: #007bff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
   
   .timelineItem {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    display: flex;
+  align-items: center;
+  width: 100%;
+  }
+
+  .timelineItem.left {
+    
+    justify-content: flex-end;
+  padding-right: 50%;
+  }
+  
+  .timelineItem.right {
+    justify-content: flex-start;
+  padding-left: 50%;
   }
   
   .timelineDot {
-    position: absolute;
+    /* position: absolute;
     left: -10px;
     top: 5px;
     width: 20px;
@@ -41,16 +70,44 @@
     background-color: #007bff;
     border: 3px solid white;
     border-radius: 50%;
-    box-shadow: 0 0 0 2px #007bff;
+    box-shadow: 0 0 0 2px #007bff; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 3px #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .timelineContent {
-    padding-left: 20px;
+    /* padding-left: 20px;
     margin-left: 20px;
     background: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
+    padding: 10px 15px; */
+    max-width: 40%;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  text-align: left;
+  }
+
+  .timelineLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .timelineItem.right .timelineContent {
+    text-align: left;
+  }
+  
+  .timelineItem.left .timelineContent {
+    text-align: right;
   }
   
   .timeline-content h3 {
