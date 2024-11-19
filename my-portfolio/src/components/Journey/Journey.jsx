@@ -17,25 +17,27 @@ const Journey = () => {
   return (
     <div className={styles.timelineContainer}>
       <h2 className={styles.timelineHeader}>My Journey</h2>
-      <div className={styles.timeline}>
+       <div className={styles.timeline}> 
+      {/* <div className={styles.timelineLine}></div>  */}
         {events.map((event, index) => (
           <div
             key={index}
             className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right}`}
           >
+            <div className={styles.timelineDot}>
+              <img src={event.logo} alt={`${event.title} logo`} className={styles.timelineLogo} />
+            </div>
             <div className={styles.timelineContent}>
               <h3>{event.year}</h3>
               <h4>{event.title}</h4>
               <p>{event.description}</p>
             </div>
-            <div className={styles.timelineDot}>
-              <img src={event.logo} alt={`${event.title} logo`} className={styles.timelineLogo} />
-            </div>
+            
           </div>
         ))}
-        <div className={styles.timelineLine}></div>
+        {/* <div className={styles.timelineLine}></div> */}
       </div>
-    </div>
+   </div>
   );
 };
 
