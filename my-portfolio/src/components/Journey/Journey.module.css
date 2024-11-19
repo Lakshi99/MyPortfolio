@@ -24,13 +24,13 @@
   
   .timeline {
     position: relative;
-    /* padding-left: 40px; */
+     padding-left: 40px; 
     border-left: 3px solid #007bff; 
     /* padding: 0; */
     display: flex;
   flex-direction: column; /* Ensure vertical stacking of items */
   align-items: center;
-  padding: 20px 0;
+  
   }
 
   .timeline::before {
@@ -45,7 +45,7 @@
     z-index: -1; /* Send it behind the content */
   }
 
-   .timelineLine {
+   /* .timelineLine {
     position: absolute;
     width: 3px;
     background: #007bff;
@@ -53,8 +53,8 @@
     bottom: 0;
     left: 50%;
     /* transform: translateX(-50%); */
-    z-index: -1;
-  }
+    /* z-index: -1; */
+  /* }  */
    
   
   .timelineItem {
@@ -67,7 +67,7 @@
 
   }
 
-  .timelineItem.left {
+   .timelineItem.left {
     
     justify-content: flex-end;
   padding-right: 50%;
@@ -76,7 +76,9 @@
   .timelineItem.right {
     justify-content: flex-start;
   padding-left: 50%;
-  }
+  } 
+  
+  
   
   .timelineDot {
     /* position: absolute;
