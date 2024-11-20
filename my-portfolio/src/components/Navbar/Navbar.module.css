@@ -24,6 +24,21 @@
     /* font-size: 28px; */
 }
 
+.menuItems a:hover {
+    color: var(rgb(117, 29, 29)); /* Change this to your desired hover color */
+    transform: scale(1.05); /* Slightly enlarge menu items on hover */
+}
+
+.title:hover {
+    color: var(red); /* Change this to a color you like for hover effect */
+    transform: scale(1.1); /* Slightly enlarge the title on hover */
+}
+
+.title:hover {
+    color: var(rgb(24, 128, 76)); /* Change this to the color you want for hover */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8); /* Luminous glow effect */
+}
+
 .menu {
     display: flex;
 }
