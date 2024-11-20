@@ -35,7 +35,7 @@
 }
 
 .title:hover {
-    color: var(rgb(24, 128, 76)); /* Change this to the color you want for hover */
+    
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8); /* Luminous glow effect */
 }
 
@@ -55,6 +55,7 @@
     text-decoration: none;
     /* color: rgb(240, 9, 167); */
     font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .menuBtn {
