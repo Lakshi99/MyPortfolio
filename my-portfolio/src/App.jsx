@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Journey from "./components/Journey/Journey";
+import Gallary from "./components/Gallary/Gallary";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <Skills /> 
     <Projects /> 
     <Journey />
+    <Gallary />
 
     
     </div>

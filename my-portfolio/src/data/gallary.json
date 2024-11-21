@@ -1,0 +1,45 @@
+{
+    "volunteering": [
+      {
+        "title": "Community Clean-Up Drive",
+        "description": "Organized a city-wide clean-up event to raise awareness about waste management.",
+        "date": "April 2023",
+        "image": "volunteering/cleanup.png"
+      },
+      {
+        "title": "Teaching Assistant",
+        "description": "Helped students improve their coding skills during summer workshops.",
+        "date": "July 2023",
+        "image": "volunteering/teaching.png"
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Full-Stack Developer Certificate",
+        "issuer": "Code Academy",
+        "date": "June 2023",
+        "image": "certificates/fullstack.png"
+      },
+      {
+        "title": "Data Science Fundamentals",
+        "issuer": "DataCamp",
+        "date": "March 2023",
+        "image": "certificates/datascience.png"
+      }
+    ],
+    "hackathons": [
+      {
+        "title": "Hackathon 2023",
+        "description": "Developed a health monitoring app using IoT and AI.",
+        "date": "May 2023",
+        "image": "hackathons/healthiot.png"
+      },
+      {
+        "title": "AI for Good Hackathon",
+        "description": "Created an AI chatbot for disaster management.",
+        "date": "October 2022",
+        "image": "hackathons/aichatbot.png"
+      }
+    ]
+  }
+  

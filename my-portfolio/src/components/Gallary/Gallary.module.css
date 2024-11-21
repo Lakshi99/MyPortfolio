@@ -1,0 +1,74 @@
+.experienceContainer {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 15px;
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .cardDescription {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .cardDate {
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .cardIssuer {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: bold;
+  }
+  
