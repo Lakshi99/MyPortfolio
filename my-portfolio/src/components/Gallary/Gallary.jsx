@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 import styles from './Gallary.module.css';
 import portfolioData from '../../data/gallary.json';
 
+import codeImage from "../../assets/gallary/code.jpeg";
+import wieImage from "../../assets/gallary/wie.jpeg";
+import pearlImage from "../../assets/gallary/pearl.jpeg";
+
 const Gallary = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const allItems = [
@@ -50,6 +54,9 @@ const Gallary = () => {
                   alt={item.title}
                   className={styles.cardImage}
                 />
+                <div className={styles.cardHoverOverlay}>
+    {item.category || "Volunteering"} {/* Show "Volunteering" or dynamic category */}
+  </div>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 {item.description && (
                   <p className={styles.cardDescription}>{item.description}</p>

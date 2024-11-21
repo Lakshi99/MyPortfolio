@@ -4,13 +4,13 @@
         "title": "Community Clean-Up Drive",
         "description": "Organized a city-wide clean-up event to raise awareness about waste management.",
         "date": "April 2023",
-        "image": "gallary/code.png"
+        "image": "gallary/code.jpeg"
       },
       {
         "title": "Teaching Assistant",
         "description": "Helped students improve their coding skills during summer workshops.",
         "date": "July 2023",
-        "image": "volunteering/teaching.png"
+        "image": "gallary/wie.jpeg"
       }
     ],
     "certificates": [
@@ -18,7 +18,7 @@
         "title": "Full-Stack Developer Certificate",
         "issuer": "Code Academy",
         "date": "June 2023",
-        "image": "certificates/fullstack.png"
+        "image": "gallary/pearl.jpeg"
       },
       {
         "title": "Data Science Fundamentals",
