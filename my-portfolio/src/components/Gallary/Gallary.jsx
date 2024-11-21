@@ -4,7 +4,7 @@ import portfolioData from '../../data/gallary.json';
 
 const Section = ({ title, items }) => (
   <section className={styles.gallarySection}>
-    <h2 className={styles.titles}>Gallary</h2>
+   
     <h2 className={styles.sectionTitle}>{title}</h2>
     <div className={styles.cardContainer}>
       {items.map((item, index) => (
@@ -25,6 +25,7 @@ const Section = ({ title, items }) => (
 const Gallary = () => {
   return (
     <div className={styles.experienceContainer}>
+         <h2 className={styles.titles}>Gallery</h2>
       <Section title="Volunteering" items={portfolioData.volunteering} />
       <Section title="Awards" items={portfolioData.certificates} />
       <Section title="Others" items={portfolioData.hackathons} />
