@@ -3,7 +3,8 @@ import styles from './Gallary.module.css';
 import portfolioData from '../../data/gallary.json'; 
 
 const Section = ({ title, items }) => (
-  <section className={styles.section}>
+  <section className={styles.gallarySection}>
+    <h2 className={styles.titles}>Gallary</h2>
     <h2 className={styles.sectionTitle}>{title}</h2>
     <div className={styles.cardContainer}>
       {items.map((item, index) => (
@@ -24,9 +25,9 @@ const Section = ({ title, items }) => (
 const Gallary = () => {
   return (
     <div className={styles.experienceContainer}>
-      <Section title="Volunteering Experience" items={portfolioData.volunteering} />
-      <Section title="Certificates" items={portfolioData.certificates} />
-      <Section title="Hackathons" items={portfolioData.hackathons} />
+      <Section title="Volunteering" items={portfolioData.volunteering} />
+      <Section title="Awards" items={portfolioData.certificates} />
+      <Section title="Others" items={portfolioData.hackathons} />
     </div>
   );
 };
