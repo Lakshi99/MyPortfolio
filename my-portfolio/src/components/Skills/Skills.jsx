@@ -46,7 +46,8 @@ const Skills = () => {
   return (
     <section className={styles.container} id="myskills">
       <h2 className={styles.title}>My Skills</h2>
-      <div className={styles.content}>
+      {/* <div className={styles.content}> */}
+      <div className={styles.skillsContainer}>
         <div className={styles.skills}>
           {myskills.map((skill, id) => (
             <div key={id} className={styles.skill}>

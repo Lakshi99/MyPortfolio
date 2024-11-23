@@ -7,12 +7,35 @@
   margin-right: 10%;
 }
 
+.skillsContainer {
+  position: relative;
+  padding: 20px; /* Space between the border and the skill logos */
+  border-radius: 15px; /* Rounded corners for the box */
+  background: var(--color-secondary); /* Background color of the box */
+  box-shadow: 0 0 20px rgba(12, 114, 209, 0.4), 
+              0 0 50px rgba(12, 114, 209, 0.6); /* Initial glow */
+  border: 3px solid rgba(17, 115, 181, 0.6); /* Subtle border */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;; /* Smooth animations */
+}
+/* 
+ .skillsContainer:hover {
+ 
+
+  box-shadow: 0 0 30px rgba(12, 114, 209, 0.8), 
+              0 0 60px rgba(12, 114, 209, 0.9); 
+  transform: scale(1.02);  
+}  
+ */
+
+
+
 .title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 40px;
   }
   
   .content {
@@ -51,8 +74,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     transition: transform 0.3s ease; 
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Subtle default glow */
   }
