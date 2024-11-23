@@ -99,6 +99,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "./Contact.module.css";
  import { FaPhone, FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+ import { FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const form = useRef();
@@ -133,14 +134,17 @@ const Contact = () => {
       <div className={styles.contactContainer}>
         {/* Left Side: Contact Information */}
         <div className={styles.contactInfo}>
-          <h3 className={styles.contactHeading}>Contact me</h3>
+          {/* <h3 className={styles.contactHeading}>Contact me</h3> */}
+          <p className="contact-description">
+         Have a question or want to work together? Feel free to drop me a message below.
+      </p>
           <div className={styles.infoItem}>
             { <FaPhone className={styles.icon} /> }
-            <p>+94 71 7 176620</p>
+            <p>+94 70 2241169</p>
           </div>
           <div className={styles.infoItem}>
             {<FaEnvelope className={styles.icon} /> }
-            <p>dushyanthaat@gmail.com</p>
+            <p>lakshikabandara601@gmail.com</p>
           </div>
           <h3 className={styles.contactHeading}>Connect with me</h3>
           <div className={styles.socialIcons}>
@@ -148,7 +152,7 @@ const Contact = () => {
               { <FaFacebookF className={styles.socialIcon} /> }
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              { <FaInstagram className={styles.socialIcon} /> }
+              { <FaGithub className={styles.socialIcon} /> }
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               {<FaLinkedinIn className={styles.socialIcon} /> }

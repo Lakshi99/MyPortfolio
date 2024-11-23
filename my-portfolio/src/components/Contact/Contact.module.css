@@ -31,7 +31,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
 
     position: relative;
   padding: 20px; /* Space between the border and the skill logos */
@@ -43,6 +44,24 @@
     border: 3px solid rgba(17, 115, 181, 0.6); /* Subtle border */
     transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth animations */
   }
+
+  .contactInfo {
+    flex: 1;
+    max-width: 800px;
+    font-size: 20px;
+  }
+
+  .infoItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #00aced;
+  }
   
   /* Form Styling */
   .form {
@@ -52,31 +71,57 @@
     flex-direction: column;
     gap: 15px;
   }
-  
-  .inputGroup {
+
+  .form {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
   }
-  
-  .label {
-    font-size: 14px;
-    color: #0c0a0a;
-  }
-  
+
   .input,
-  .textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
+.textarea {
+  width: 200%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: #f2eeee;
+  color: #fff;
+ 
+}
+
+  
+  
+ 
   
   .textarea {
-    height: 100px;
+    height: 90px;
     resize: none;
   }
+
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  .socialIcon {
+    font-size: 24px;
+    color: #fff; /* Default color */
+    transition: color 0.3s;
+    background-color: #0d69ba;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+  }
+  
+  .socialIcon:hover {
+    color: #1da1f2; /* Change color on hover */
+  }
+  
   
   .button {
     background-color: #007bff;
