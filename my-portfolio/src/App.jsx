@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Journey from "./components/Journey/Journey";
 import Gallary from "./components/Gallary/Gallary";
+import Contact from "./components/Contact/Contact";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Projects /> 
     <Journey />
     <Gallary />
+    <Contact />
 
     
     </div>
