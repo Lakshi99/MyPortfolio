@@ -6,8 +6,12 @@
 
     color: var(--color-text);
     margin-top: 79px;
-    margin-left: 10%;
+    margin-left: 9.2%;
     margin-right: 10%;
+
+    padding: 40px 1px;
+    max-width: 3000px;
+   
   }
   
   /* Title Styling */
