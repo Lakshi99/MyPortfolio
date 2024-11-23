@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/about/heroImage.png';
+import heroImage from '../../assets/about/hero.png';
 import styles from './Hero.module.css';
 
 
