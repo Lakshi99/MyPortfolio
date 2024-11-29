@@ -238,8 +238,8 @@
 
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(42, 140, 172, 0.42) 0%,
+    rgba(128, 30, 30, 0) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -266,8 +266,8 @@
 
 .sectionTitle {
   text-align: center;
-  font-size: 1.8rem;
-  color: #1976d2;
+  font-size: 1.7rem;
+  color: white;
   margin-bottom: 20px;
 }
 
