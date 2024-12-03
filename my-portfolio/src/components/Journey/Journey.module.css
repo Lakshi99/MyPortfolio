@@ -201,6 +201,10 @@
   padding: 20px;
   /* background: linear-gradient(to bottom, #e3f2fd, #ffffff); */
   color: #333;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Keeps sections properly spaced */
 }
 
 .journeyHeader {
@@ -223,8 +227,9 @@
 .journeyTimeline {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  /* gap: 30px; */
   flex-wrap: wrap;
+  gap: 2rem; 
 }
 
 .journeySection {
@@ -326,6 +331,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   align-items: center;
+  width: 400px;
+ 
 }
 
 .content h3 {
@@ -356,6 +363,25 @@
   bottom: 0; /* Extend fully to the end for the last milestone */
   display: none;
 }
+
+.seeMoreButton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1976d2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seeMoreButton:hover {
+  background-color: #0d47a1;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .journeyTimeline {

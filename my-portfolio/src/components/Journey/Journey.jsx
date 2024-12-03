@@ -126,7 +126,7 @@
 
 
 
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Journey.module.css";
 
 import sabLogo from "../../assets/journey/sab.png";
@@ -134,6 +134,7 @@ import sjbLogo from "../../assets/journey/sjb.jpg";
 import aquinasLogo from "../../assets/journey/aquinas.jpg";
 
 const Journey = () => {
+  const [showAllVolunteering, setShowAllVolunteering] = useState(false);
   const milestones = {
     academic: [
       {
@@ -166,7 +167,26 @@ const Journey = () => {
         title: "Delegate Manager",
         description: "INSL Provincial Competition",
       },
+      {
+        year: "2021",
+        title: "Event Coordinator",
+        description: "University Club",
+      },
+      {
+        year: "2020",
+        title: "Community Helper",
+        description: "Local NGO",
+      },
+      {
+        year: "2019",
+        title: "Participant",
+        description: "Clean City Campaign",
+      },
     ],
+  };
+
+  const toggleShowAllVolunteering = () => {
+    setShowAllVolunteering(!showAllVolunteering);
   };
 
   return (
@@ -190,8 +210,8 @@ const Journey = () => {
                   className={styles.logo}
                 />
               </div>
-            <div className={styles.milestone} key={`academic-${index}`}>
-             </div>
+             <div className={styles.milestone} key={`academic-${index}`}>
+             </div> 
               <div className={styles.content}>
               <h3>{milestone.year}</h3>
                 <h3>{milestone.title}</h3>
@@ -203,10 +223,15 @@ const Journey = () => {
         {/* Volunteering Journey */}
         <div className={styles.journeySection}>
           <h2 className={styles.sectionTitle}>Volunteering Journey</h2>
-          {milestones.volunteering.map((milestone, index) => (
+          {milestones.volunteering
+          .slice(0, showAllVolunteering ? milestones.volunteering.length : 3)
+          .map((milestone, index) => (
            <div
            className={`${styles.milestone} ${
-             index !== milestones.volunteering.length - 1
+             index !== 
+             (showAllVolunteering
+              ? milestones.volunteering.length
+              : 3) - 1
                ? styles.withLine
                : ""
            }`}
@@ -227,6 +252,15 @@ const Journey = () => {
               </div>
             </div>
           ))}
+
+{milestones.volunteering.length > 3 && (
+            <button
+              className={styles.seeMoreButton}
+              onClick={toggleShowAllVolunteering}
+            >
+              {showAllVolunteering ? "See Less" : "See More"}
+            </button>
+          )}
         </div>
       </div>
     </div>
