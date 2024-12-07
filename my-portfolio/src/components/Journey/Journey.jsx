@@ -135,6 +135,7 @@ import aquinasLogo from "../../assets/journey/aquinas.jpg";
 
 const Journey = () => {
   const [showAllVolunteering, setShowAllVolunteering] = useState(false);
+
   const milestones = {
     academic: [
       {
@@ -186,8 +187,8 @@ const Journey = () => {
   };
 
   const toggleShowAllVolunteering = () => {
-    setShowAllVolunteering(!showAllVolunteering);
-  };
+   setShowAllVolunteering(!showAllVolunteering);
+   };
 
   return (
     <div className={styles.journeyContainer}>
@@ -220,6 +221,9 @@ const Journey = () => {
             </div>
           ))}
         </div>
+
+    
+  
         {/* Volunteering Journey */}
         <div className={styles.journeySection}>
           <h2 className={styles.sectionTitle}>Volunteering Journey</h2>
