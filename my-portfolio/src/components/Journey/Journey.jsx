@@ -225,7 +225,7 @@ const Journey = () => {
     
   
         {/* Volunteering Journey */}
-        <div className={styles.journeySection}>
+        <div className={styles.journeySection1}>
           <h2 className={styles.sectionTitle}>Volunteering Journey</h2>
           {milestones.volunteering
           .slice(0, showAllVolunteering ? milestones.volunteering.length : 3)
