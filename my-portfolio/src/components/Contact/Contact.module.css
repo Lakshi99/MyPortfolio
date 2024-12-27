@@ -50,7 +50,7 @@
   .contactInfo {
     flex: 1;
     max-width: 800px;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .contact-description {
@@ -68,7 +68,7 @@
   
   .icon {
     font-size: 20px;
-    color: #00aced;
+    /* color: #00aced; */
   }
   
   /* Form Styling */
@@ -118,8 +118,8 @@
   .socialIcons {
     display: flex;
     gap: 15px;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
   }
   
 
