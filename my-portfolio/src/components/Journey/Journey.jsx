@@ -187,7 +187,8 @@ const Journey = () => {
   };
 
   const toggleShowAllVolunteering = () => {
-   setShowAllVolunteering(!showAllVolunteering);
+  //  setShowAllVolunteering(!showAllVolunteering);
+  setShowAllVolunteering((prev) => !prev);
    };
 
   return (
@@ -211,8 +212,8 @@ const Journey = () => {
                   className={styles.logo}
                 />
               </div>
-             <div className={styles.milestone} key={`academic-${index}`}>
-             </div> 
+             {/* <div className={styles.milestone} key={`academic-${index}`}> */}
+             {/* </div>  */}
               <div className={styles.content}>
               <h3>{milestone.year}</h3>
                 <h3>{milestone.title}</h3>
