@@ -136,7 +136,10 @@ const Contact = () => {
         <div className={styles.contactInfo}>
           {/* <h3 className={styles.contactHeading}>Contact me</h3> */}
           <p className="contact-description">
-         Have a question or want to work together? Feel free to drop me a message below.
+         Have a question or want to work together? 
+      </p>
+      <p className="contact-description">
+        Feel free to drop me a message below.
       </p>
           <div className={styles.infoItem}>
             { <FaPhone className={styles.icon} /> }
