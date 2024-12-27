@@ -12,6 +12,7 @@
     padding: 40px 1px;
     max-width: 1500px;
    
+   
   }
   
   /* Title Styling */
@@ -33,14 +34,15 @@
     /* flex-direction: column; */
     gap: 40px;
     flex-wrap: wrap;
+    height: 420px;
 
     /* position: relative; */
-  padding: 20px; /* Space between the border and the skill logos */
+  padding: 50px; /* Space between the border and the skill logos */
   border-radius: 15px; 
 
     background: var(--color-secondary); /* Background color of the box */
-    box-shadow: 0 0 20px rgba(12, 114, 209, 0.4), 
-                0 0 50px rgba(12, 114, 209, 0.6); /* Initial glow */
+    box-shadow: 0 0 20px rgba(3, 37, 69, 0.4), 
+                0 0 50px rgba(63, 115, 163, 0.6); /* Initial glow */
     border: 3px solid rgba(17, 115, 181, 0.6); /* Subtle border */
     transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth animations */
   }
@@ -51,11 +53,17 @@
     font-size: 20px;
   }
 
+  .contact-description {
+    padding-bottom: 10px;
+  }
+
   .infoItem {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    
   }
   
   .icon {
@@ -80,7 +88,7 @@
 
   .contactForm {
     flex: 1; /* Take up equal space */
-    max-width: 45%; /* Restrict width */
+    max-width: 55%; /* Restrict width */
   }
 
   .input,
@@ -95,6 +103,9 @@
  
 }
 
+.contactHeading {
+  margin-bottom: 20px;
+}
   
   
  
