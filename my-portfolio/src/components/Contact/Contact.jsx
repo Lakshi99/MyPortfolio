@@ -154,10 +154,10 @@ const Contact = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               { <FaFacebookF className={styles.socialIcon} /> }
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Lakshi99" target="_blank" rel="noopener noreferrer">
               { <FaGithub className={styles.socialIcon} /> }
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/lakshika-bandara-845607219/" target="_blank" rel="noopener noreferrer">
               {<FaLinkedinIn className={styles.socialIcon} /> }
             </a>
           </div>
@@ -186,7 +186,7 @@ const Contact = () => {
               placeholder="Type your message here..."
               required
             />
-            <button type="submit" className={styles.button}>
+            <button type="submit" className={styles.cntbutton}>
               Send
             </button>
           </form>

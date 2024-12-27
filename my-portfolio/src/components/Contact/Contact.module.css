@@ -129,8 +129,8 @@
     transition: color 0.3s;
     background-color: #0d69ba;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 
   }
   
@@ -139,18 +139,42 @@
   }
   
   
-  .button {
-    background-color: #007bff;
+  .cntbutton {
+    /* background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; */
+    text-decoration: none;
+    /* background-color: var(--color-primary); */
+    background-color: rgb(10, 91, 158);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 26px;
+    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
+    transition: transform 0.3s ease;
+    margin-left: -3.5px;
+    width: 200px;
+    height: 60px;
+    margin-left: 160px;
+    border: none;
+    box-shadow: none;
   }
   
-  .button:hover {
+  .cntbutton:hover {
     background-color: #0056b3;
+      transform: scale(1.1);
+      background-color: #204aac;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 
+      0 0 15px 4px rgba(12, 114, 209, 0.6);
+  
+      border: 2px solid rgba(17, 115, 181, 0.6);
+    
   }
   
