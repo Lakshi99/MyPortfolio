@@ -214,8 +214,9 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   color: var(--color-text);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 50px;
+  margin-left: -21px;
 }
 
 /* Timeline Section */
