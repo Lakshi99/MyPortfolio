@@ -32,11 +32,17 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 70px;
   width: 100%;
+ 
 
   
 }
+
+.projectsContainer .projectCard:first-child {
+  margin-left: -110px; /* Adjust the margin-left value as needed */
+}
+
 
 
 .projectCard {
