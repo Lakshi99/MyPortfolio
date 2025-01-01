@@ -126,7 +126,7 @@
 
 
 
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Journey.module.css";
 
 import sabLogo from "../../assets/journey/sab.png";
@@ -134,7 +134,7 @@ import sjbLogo from "../../assets/journey/sjb.jpg";
 import aquinasLogo from "../../assets/journey/aquinas.jpg";
 
 const Journey = () => {
-  const [showAllVolunteering, setShowAllVolunteering] = useState(false);
+  
 
   const milestones = {
     academic: [
@@ -173,23 +173,11 @@ const Journey = () => {
         title: "Event Coordinator",
         description: "University Club",
       },
-      {
-        year: "2020",
-        title: "Community Helper",
-        description: "Local NGO",
-      },
-      {
-        year: "2019",
-        title: "Participant",
-        description: "Clean City Campaign",
-      },
+      
     ],
   };
 
-  const toggleShowAllVolunteering = () => {
-  //  setShowAllVolunteering(!showAllVolunteering);
-  setShowAllVolunteering((prev) => !prev);
-   };
+  
 
   return (
     <div className={styles.journeyContainer}>
@@ -228,17 +216,10 @@ const Journey = () => {
         {/* Volunteering Journey */}
         <div className={styles.journeySection1}>
           <h2 className={styles.sectionTitle}>Volunteering Journey</h2>
-          {milestones.volunteering
-          .slice(0, showAllVolunteering ? milestones.volunteering.length : 3)
-          .map((milestone, index) => (
+          {milestones.volunteering.map((milestone, index) => (
            <div
            className={`${styles.milestone} ${
-             index !== 
-             (showAllVolunteering
-              ? milestones.volunteering.length
-              : 3) - 1
-               ? styles.withLine
-               : ""
+             index !== milestones.volunteering.length - 1 ? styles.withLin : ""
            }`}
            key={`volunteering-${index}`}
          >
@@ -258,14 +239,7 @@ const Journey = () => {
             </div>
           ))}
 
-{milestones.volunteering.length > 3 && (
-            <button
-              className={styles.seeMoreButton}
-              onClick={toggleShowAllVolunteering}
-            >
-              {showAllVolunteering ? "See Less" : "See More"}
-            </button>
-          )}
+
         </div>
       </div>
      </div>
