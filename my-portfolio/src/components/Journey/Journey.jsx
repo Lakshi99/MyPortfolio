@@ -162,21 +162,21 @@ const Journey = () => {
     ],
     volunteering: [
       {
-        year: "2023",
-        title: "Volunteer Manager",
-        description: "IEEE Student Branch",
+        year: "2024",
+        title: "Secretary Team Member",
+        description: "Career Forge Phase 01",
         logo: IEEELogo,
       },
       {
-        year: "2022",
-        title: "Delegate Manager",
-        description: "INSL Provincial Competition",
+        year: "2024",
+        title: "Organizing Committee Member",
+        description: "PeralHack 2.0",
         logo: pearlLogo,
       },
       {
         year: "2021",
-        title: "Event Coordinator",
-        description: "University Club",
+        title: "Delegates Manager",
+        description: "IEEE Innovation Sri Lanka Provincial Competition",
         logo: ieeeSabLogo,
       },
       
