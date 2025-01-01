@@ -132,6 +132,9 @@ import styles from "./Journey.module.css";
 import sabLogo from "../../assets/journey/sab.png";
 import sjbLogo from "../../assets/journey/sjb.jpg";
 import aquinasLogo from "../../assets/journey/aquinas.jpg";
+import IEEELogo from "../../assets/journey/IEEE.jpg";
+import pearlLogo from "../../assets/journey/pearl.png";
+import ieeeSabLogo from "../../assets/journey/ieeesab.png";
 
 const Journey = () => {
   
@@ -162,16 +165,19 @@ const Journey = () => {
         year: "2023",
         title: "Volunteer Manager",
         description: "IEEE Student Branch",
+        logo: IEEELogo,
       },
       {
         year: "2022",
         title: "Delegate Manager",
         description: "INSL Provincial Competition",
+        logo: pearlLogo,
       },
       {
         year: "2021",
         title: "Event Coordinator",
         description: "University Club",
+        logo: ieeeSabLogo,
       },
       
     ],
