@@ -1,5 +1,6 @@
 
 import styles from "./App.module.css";
+import ParticlesBackground from "./components/Particle/ParticlesBackground";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 // import Skills from "./components/Skills/Skills";
@@ -10,11 +11,14 @@ import Gallary from "./components/Gallary/Gallary";
 import Contact from "./components/Contact/Contact";
 
 
+
 function App() {
   
 
   return (
     <div className={styles.App}>
+      {/* Add the particle background as the first element */}
+      <ParticlesBackground />
       <Navbar />
       <Hero />
      <Skills /> 
