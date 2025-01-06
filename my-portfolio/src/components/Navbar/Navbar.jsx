@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import { getImageurl } from '../../utils';
 
@@ -19,19 +20,20 @@ export const Navbar = () => {
         onClick={() => setMenuOpen(false)}
         >
             <li>
-            <a href="/">Skills</a>
+            {/* <a href="/">Skills</a> */}
+            <Link to="/skills">Skills</Link>
             </li>
             <li>
-            <a href="/">Projects</a>
+            <Link to="/projects">Projects</Link>
             </li>
             <li>
-            <a href="/">Journey</a>
+            <Link to="/journey">Journey</Link>
             </li>
             <li>
-            <a href="/">Gallary</a>
+            <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-            <a href="/">Contact Me</a> 
+            <Link to="/contact">Contact Me</Link>  
             </li>
         </ul>
       </div>

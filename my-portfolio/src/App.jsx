@@ -9,26 +9,36 @@ import Projects from "./components/Projects/Projects";
 import Journey from "./components/Journey/Journey";
 import Gallary from "./components/Gallary/Gallary";
 import Contact from "./components/Contact/Contact";
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   
 
   return (
+    <Router>
     <div className={styles.App}>
       {/* Add the particle background as the first element */}
       <ParticlesBackground />
       <Navbar />
-      <Hero />
+      <Routes>
+      <Route path="/" element={<Hero />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/journey" element={<Journey />} />
+          <Route path="/gallery" element={<Gallary />} />
+          <Route path="/contact" element={<Contact />} />
+      {/* <Hero />
      <Skills /> 
     <Projects /> 
     <Journey />
     <Gallary />
-    <Contact />
+    <Contact /> */}
+    </Routes>
 
     
     </div>
+    </Router>
   )
 }
 
