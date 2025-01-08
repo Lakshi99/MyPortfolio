@@ -6,6 +6,7 @@ import portfolioData from '../../data/gallary.json';
 import codeImage from "../../assets/gallary/code.jpeg";
 import wieImage from "../../assets/gallary/wie.jpeg";
 import pearlImage from "../../assets/gallary/pearl.jpeg";
+import careerImage from "../../assets/gallary/careerforge.png";
 
 const Gallary = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,8 +31,10 @@ const Gallary = () => {
   };
 
   return (
-    <div className={styles.gallaryContainer}>
+    <div>
       <h2 className={styles.titles}>Gallery</h2>
+    <div className={styles.gallaryContainer}>
+      
       <div className={styles.carousel}>
         <button
           className={`${styles.arrow} ${styles.leftArrow}`}
@@ -73,6 +76,7 @@ const Gallary = () => {
           &#8594;
         </button>
       </div>
+    </div>
     </div>
   );
 };
