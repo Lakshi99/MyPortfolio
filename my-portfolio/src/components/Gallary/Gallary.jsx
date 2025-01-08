@@ -1,12 +1,6 @@
-// 
 import React, { useState } from 'react';
 import styles from './Gallary.module.css';
 import portfolioData from '../../data/gallary.json';
-
-import codeImage from "../../assets/gallary/code.jpeg";
-import wieImage from "../../assets/gallary/wie.jpeg";
-import pearlImage from "../../assets/gallary/pearl.jpeg";
-import careerImage from "../../assets/gallary/careerforge.png";
 
 const Gallary = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,8 +27,6 @@ const Gallary = () => {
   return (
     <div>
       <h2 className={styles.titles}>Gallery</h2>
-    <div className={styles.gallaryContainer}>
-      
       <div className={styles.carousel}>
         <button
           className={`${styles.arrow} ${styles.leftArrow}`}
@@ -58,8 +50,8 @@ const Gallary = () => {
                   className={styles.cardImage}
                 />
                 <div className={styles.cardHoverOverlay}>
-    {item.category || "Volunteering"} {/* Show "Volunteering" or dynamic category */}
-  </div>
+                  {item.title} {/* Display the image title */}
+                </div>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 {item.description && (
                   <p className={styles.cardDescription}>{item.description}</p>
@@ -77,9 +69,7 @@ const Gallary = () => {
         </button>
       </div>
     </div>
-    </div>
   );
 };
 
 export default Gallary;
-
