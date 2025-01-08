@@ -28,13 +28,13 @@ function App() {
           <Route path="/journey" element={<Journey />} />
           <Route path="/gallery" element={<Gallary />} />
           <Route path="/contact" element={<Contact />} />
-      {/* <Hero />
+       
+    </Routes>
      <Skills /> 
     <Projects /> 
     <Journey />
     <Gallary />
-    <Contact /> */}
-    </Routes>
+    <Contact /> 
 
     
     </div>
