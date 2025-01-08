@@ -1,30 +1,42 @@
 {
     "volunteering": [
       {
-        "title": "Community Clean-Up Drive",
-        "description": "Organized a city-wide clean-up event to raise awareness about waste management.",
-        "date": "April 2023",
-        "image": "gallary/code.jpeg"
+        "title": "Career Forge Phase 01",
+        "description": "Contributed as a Secretary Team Member to Career Forge Phase 01, a career guidance program aimed at enhancing students' professional development.",
+        "date": "August 2024",
+        "image": "gallary/careerforge.png"
       },
       {
-        "title": "Teaching Assistant",
-        "description": "Helped students improve their coding skills during summer workshops.",
-        "date": "July 2023",
-        "image": "gallary/wie.jpeg"
+        "title": " PearlHack 2.0",
+        "description": "Played a key role as an organizing committee member for PearlHack 2.0, a hackathon designed to foster creativity and technical skills among students.",
+        "date": "May 2024",
+        "image": "gallary/pearl.jpeg"
+      },
+      {
+        "title": " IEEE Innovation Sri Lanka Provincial Competition",
+        "description": "Successfully managed delegates for the IEEE Innovation Sri Lanka Provincial Competition, coordinating participants and ensuring smooth event execution.",
+        "date": "September 2023",
+        "image": "gallary/innovation.png"
       }
     ],
     "certificates": [
       {
-        "title": "Full-Stack Developer Certificate",
-        "issuer": "Code Academy",
-        "date": "June 2023",
-        "image": "gallary/pearl.jpeg"
+        "title": "CodeSprint 8 (IEEE Student Branch of IIT)",
+        "issuer": "Recognized as semi-finalists in CodeSprint 8, a competitive coding event organized by the IEEE Student Branch of IIT, showcasing problem-solving and programming skills.",
+        "date": "June 2024",
+        "image": ""
       },
       {
-        "title": "Data Science Fundamentals",
-        "issuer": "DataCamp",
-        "date": "March 2023",
-        "image": "certificates/datascience.png"
+        "title": "Code with WIE",
+        "issuer": "Achieved finalist status in the Code with WIE competition, highlighting innovative thinking and technical abilities in a competitive environment.p",
+        "date": "December 2023",
+        "image": "gallary/code.jpeg"
+      },
+      {
+        "title": "SLTC Inter-University Game Development Competition",
+        "issuer": "Earned finalist recognition and popularity for creating a game trailer video in the SLTC Inter-University Game Development Competition, emphasizing creativity and storytelling.",
+        "date": "November 2021",
+        "image": "gallary/pearl.jpeg"
       }
     ],
     "hackathons": [

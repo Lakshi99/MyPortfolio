@@ -19,6 +19,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .projectsContainer {
@@ -32,7 +33,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 125px;
+  gap: 50px;
   width: 100%;
  
 }
@@ -44,7 +45,7 @@
 
 
 .projectCard {
-  width: 400px;
+  width: 600px;
   height: 500px;
   background-color: #10315e;  
   
