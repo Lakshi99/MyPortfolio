@@ -9,6 +9,7 @@ import Projects from "./components/Projects/Projects";
 import Journey from "./components/Journey/Journey";
 import Gallary from "./components/Gallary/Gallary";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -28,13 +29,15 @@ function App() {
           <Route path="/journey" element={<Journey />} />
           <Route path="/gallery" element={<Gallary />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/footer" element={<Footer />} />
        
     </Routes>
-     <Skills /> 
+    <Skills /> 
     <Projects /> 
     <Journey />
     <Gallary />
     <Contact /> 
+    <Footer /> 
 
     
     </div>
