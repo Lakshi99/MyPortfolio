@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import { getImageurl } from '../../utils';
 
+
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
