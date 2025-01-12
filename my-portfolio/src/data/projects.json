@@ -6,7 +6,7 @@
     "imageSrc": "projects/InternX.png",
     "github": "https://github.com/Lakshi99/InternX",
     "liveDemo": "https://www.linkedin.com/posts/lakshika-bandara-845607219_internships-careeropportunities-itindustry-activity-7245481777526366208-hXiv?utm_source=share&utm_medium=member_desktop",
-    "techStack": ["react", "nodejs", "mongodb", "Expressjs"]
+    "techStack": ["react", "nodejs", "mongodb", "Expressjs", "figma", "trello"]
   },
   {
     "title": "Explore Express",
@@ -14,14 +14,25 @@
 
     "imageSrc": "projects/Explore.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
-    "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
+    "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop",
+    "techStack": ["javascript", "html", "css", "nodejs", "Expressjs", "figma"]
   },
   {
     "title": "Lecture Hall Allocation System",
     "description": "A system to optimize lecture hall scheduling by assigning halls based on course requirements, student capacity, and availability. This systm reduces conflicts and improves management, offering scalability and ease of use for university administrators.",
     "imageSrc": "projects/Lecture.png",
     "github": "https://github.com/Lakshi99/ExplorExpress-_WebProject",
-    "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop"
+    "liveDemo": "https://www.linkedin.com/posts/janarthanv_exploreexpress-traveltech-webdevelopment-ugcPost-7201556278391808000-LG78?utm_source=share&utm_medium=member_desktop",
+    "techStack": ["react", "nodejs", "mongodb", "Expressjs", "figma"]
+  },
+
+  {
+    "title": "Library Management System",
+    "description": "A Library Management System for R/B/Karagasthalawa Maha Vidyalaya to automate book management and improve efficiency through streamlined processes like book categorization, record management, and search functionality.",
+
+    "imageSrc": "projects/lms.jpg",
+    "github": "https://github.com/KushaRa/LMS-KaragasthalawaMV",
+   "techStack": ["react", "nodejs", "mongodb", "Expressjs", "figma", "trello"]
   }
 
 ]
