@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import { getImageurl } from '../../utils';
+import { Link as ScrollLink } from "react-scroll";
 
 
 export const Navbar = () => {
@@ -22,7 +23,14 @@ export const Navbar = () => {
         >
             <li>
             {/* <a href="/">Skills</a> */}
-            <Link to="/skills">Skills</Link>
+            <ScrollLink
+             to="skills"
+             smooth={true}
+  duration={500}
+  offset={-50} 
+             >
+              Skills
+              </ScrollLink>
             </li>
             <li>
             <Link to="/projects">Projects</Link>
