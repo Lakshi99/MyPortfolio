@@ -105,22 +105,28 @@
     text-align: center; */
     font-family: 'Arial', sans-serif;
     padding: 20px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
+    margin: 10% 10%; 
     color: #fff;
     background-color: #121212;
+    background-image: linear-gradient(
+    90deg,
+    rgba(42, 140, 172, 0.42) 0%,
+    rgba(128, 30, 30, 0) 100%
+  );
   }
   
-  .titles {
+  .titles1 {
     
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
     color: var(--color-text);
-    margin-bottom: 40px;
-    margin-top: 76px;
+    margin-bottom: 10px;
+    margin-top: 70px;
     margin-left: 9%;
-    margin-right: 10%; 
+    margin-right: 10%;  
     text-align: center;
   }
   
@@ -130,6 +136,8 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+    margin: 10% 3%;
+    
   }
   
   .carouselWindow {
@@ -155,8 +163,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -164,14 +174,34 @@
   }
   
   .cardImage {
-    width: 100%;
-    height: 380px;
+    width: 390px;
+    height: 390px;
+   
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease;
-    gap: 50px;
+    gap: 5px;
+    
+    background-color: #10315e;
+
+    background-image: linear-gradient(
+    90deg,
+    rgba(42, 140, 172, 0.42) 0%,
+    rgba(128, 30, 30, 0) 100%
+  );
   }
+
+  .cardImage:hover {
+    transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+  background-size: 100% 100%;
+
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4), 
+              0 0 15px 4px rgba(12, 114, 209, 0.6);
+
+              border: 2px solid rgba(17, 115, 181, 0.6);
+}
 
   .card:hover .cardImage {
     transform: scale(1.1); /* Slight zoom on hover */
@@ -181,13 +211,14 @@
   .cardTitle {
     font-size: 1rem;
     margin-top: 10px;
-    color: orange;
+    color: rgb(55, 118, 220);
   }
   
   .cardDescription {
     font-size: 0.9rem;
     color: #ddd;
     margin-top: 5px;
+    justify-content: center;
   }
   
   /* Arrows */
@@ -196,13 +227,16 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(6, 27, 55, 0.5);
     color: white;
     border: none;
-    padding: 10px;
+    padding: 13px;
     cursor: pointer;
     z-index: 10;
     border-radius: 50%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
   }
   
   .leftArrow {
@@ -216,5 +250,10 @@
   .arrow:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+  }
+
+  .cardDescription {
+    align-items: center;
+    justify-content: first baseline;
   }
   
