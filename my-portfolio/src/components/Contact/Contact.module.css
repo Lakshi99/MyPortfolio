@@ -90,6 +90,7 @@
   .contactForm {
     flex: 1; /* Take up equal space */
     max-width: 55%; /* Restrict width */
+    width: 100%;
   }
 
   .input,
@@ -101,7 +102,7 @@
   font-size: 14px;
   background: #f2eeee;
   color: #000000;
- 
+  max-width: 100%;
 }
 
 .contactHeading {
@@ -182,3 +183,73 @@
     
   }
   
+  @media (max-width: 768px) {
+    .contactContainer {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .contactInfo {
+      text-align: center;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .infoItem {
+      justify-content: center;
+      margin-bottom: 15px; 
+    }
+  
+    .contactForm {
+      max-width: 100%;
+    }
+  
+    .cntbutton {
+      margin: 10px auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactInfo {
+      font-size: 16px; /* Reduce font size for very small screens */
+      text-align: center;
+    }
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .input,
+    .textarea {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    .socialIcon {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .cntbutton {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contactInfo {
+      max-width: 100%; /* Take full width */
+      text-align: center; /* Center align the text */
+      margin-bottom: 20px; /* Add spacing below */
+    }
+  
+    .infoItem {
+      justify-content: center; /* Center align icons and text */
+      margin-bottom: 15px; /* Reduce spacing */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactInfo {
+      font-size: 16px; /* Reduce font size for very small screens */
+    }
+  }
