@@ -44,7 +44,7 @@ const imageMap = {
 
 const Skills = () => {
   return (
-    <section className={styles.container} id="myskills">
+    <section className={styles.container} id="skills">
       <h2 className={styles.title}>My Skills</h2>
       {/* <div className={styles.content}> */}
       <div className={styles.skillsContainer}>
