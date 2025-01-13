@@ -26,7 +26,7 @@ const Gallary = () => {
 
   return (
     <div>
-      <h2 className={styles.titles}>Gallery</h2>
+      <h2 className={styles.titles1}>Gallery</h2>
       <div className={styles.carousel}>
         <button
           className={`${styles.arrow} ${styles.leftArrow}`}
@@ -50,7 +50,7 @@ const Gallary = () => {
                   className={styles.cardImage}
                 />
                 <div className={styles.cardHoverOverlay}>
-                  {item.title} {/* Display the image title */}
+                  {/* {item.title} Display the image title */}
                 </div>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 {item.description && (
