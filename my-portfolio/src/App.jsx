@@ -22,6 +22,7 @@ function App() {
       {/* Add the particle background as the first element */}
       <ParticlesBackground />
       <Navbar />
+      <div className="scrollContainer">
       <Routes>
       <Route path="/" element={<Hero />} />
           <Route path="/skills" element={<Skills />} />
@@ -31,14 +32,15 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/footer" element={<Footer />} />
        
-    </Routes>
-    <Skills /> 
+     </Routes>
+     <Skills /> 
     <Projects /> 
     <Journey />
     <Gallary />
     <Contact /> 
-    <Footer /> 
+    <Footer />   
 
+ </div>
     
     </div>
     </Router>
