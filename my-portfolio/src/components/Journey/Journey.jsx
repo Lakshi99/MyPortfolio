@@ -186,7 +186,8 @@ const Journey = () => {
   
 
   return (
-    <div className={styles.journeyContainer}>
+    <section id="journey" className={styles.journeyContainer}>
+     {/* <div className={styles.journeyContainer}> */}
       <h1 className={styles.journeyHeader}>My Journey</h1>
        <div className={styles.journeyTimeline}> 
         {/* Academic Journey */}
@@ -248,7 +249,7 @@ const Journey = () => {
 
         </div>
       </div>
-     </div>
+     </section>
   );
 };
 
