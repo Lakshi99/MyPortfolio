@@ -33,10 +33,24 @@ export const Navbar = () => {
               </ScrollLink>
             </li>
             <li>
-            <Link to="/projects">Projects</Link>
+            <ScrollLink 
+            to="projects"
+            smooth={true}
+  duration={500}
+  offset={-50} 
+            >
+              Projects
+              </ScrollLink>
             </li>
             <li>
-            <Link to="/journey">Journey</Link>
+            <ScrollLink 
+            to="journey"
+            smooth={true}
+  duration={500}
+  offset={-50} 
+            >
+              Journey
+              </ScrollLink>
             </li>
             <li>
             <Link to="/gallery">Gallery</Link>
