@@ -25,7 +25,7 @@ const Gallary = () => {
   };
 
   return (
-    <div>
+    <section id="gallery">
       <h2 className={styles.titles1}>Gallery</h2>
       <div className={styles.carousel}>
         <button
@@ -68,7 +68,7 @@ const Gallary = () => {
           &#8594;
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

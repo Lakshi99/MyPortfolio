@@ -53,10 +53,23 @@ export const Navbar = () => {
               </ScrollLink>
             </li>
             <li>
-            <Link to="/gallery">Gallery</Link>
+            <ScrollLink 
+            to="gallery"
+            smooth={true}
+            duration={500}
+            offset={-50} 
+            >
+              Gallery
+              </ScrollLink>
             </li>
             <li>
-            <Link to="/contact">Contact Me</Link>  
+            <ScrollLink 
+            to="contact"
+            smooth={true}
+            duration={500}
+            offset={-50}
+            >Contact Me
+            </ScrollLink>  
             </li>
         </ul>
       </div>
