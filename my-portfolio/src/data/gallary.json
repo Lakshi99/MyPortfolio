@@ -10,7 +10,7 @@
         "title": " PearlHack 2.0",
         "description": "Played a key role as an organizing committee member for PearlHack 2.0, a hackathon designed to foster creativity and technical skills among students.",
         "date": "May 2024",
-        "image": "gallary/pearl.jpeg"
+        "image": "gallary/pearl.jpg"
       },
       {
         "title": " IEEE Innovation Sri Lanka Provincial Competition",
@@ -22,35 +22,41 @@
     "certificates": [
       {
         "title": "CodeSprint 8 (IEEE Student Branch of IIT)",
-        "issuer": "Recognized as semi-finalists in CodeSprint 8, a competitive coding event organized by the IEEE Student Branch of IIT, showcasing problem-solving and programming skills.",
+        "description": "Recognized as semi-finalists in CodeSprint 8, a competitive coding event organized by the IEEE Student Branch of IIT, showcasing problem-solving and programming skills.",
         "date": "June 2024",
-        "image": ""
+        "image": "gallary/codes.jpg"
       },
       {
         "title": "Code with WIE",
-        "issuer": "Achieved finalist status in the Code with WIE competition, highlighting innovative thinking and technical abilities in a competitive environment.p",
+        "description": "Achieved finalist status in the Code with WIE competition, highlighting innovative thinking and technical abilities in a competitive environment.p",
         "date": "December 2023",
-        "image": "gallary/code.jpeg"
+        "image": "gallary/code.jpg"
       },
       {
         "title": "SLTC Inter-University Game Development Competition",
-        "issuer": "Earned finalist recognition and popularity for creating a game trailer video in the SLTC Inter-University Game Development Competition, emphasizing creativity and storytelling.",
+        "description": "Earned finalist recognition and popularity for creating a game trailer video in the SLTC Inter-University Game Development Competition, emphasizing creativity and storytelling.",
         "date": "November 2021",
-        "image": "gallary/pearl.jpeg"
+        "image": "gallary/sltc.jpg"
       }
     ],
     "hackathons": [
       {
-        "title": "Hackathon 2023",
-        "description": "Developed a health monitoring app using IoT and AI.",
+        "title": "Industrial Visit",
+        "description": "Participated in the Industrial Visit for 2nd-year Software Engineering students to CodeGen International and Zone 24x7 on 9th February 2024, gaining valuable insights into technology and innovation.",
         "date": "May 2023",
-        "image": "hackathons/healthiot.png"
+        "image": "gallary/zone.jpg"
       },
       {
-        "title": "AI for Good Hackathon",
-        "description": "Created an AI chatbot for disaster management.",
+        "title": "The Modern Javascript for Beginners",
+        "description": "I completed the 'Modern JavaScript for Beginners' course on Udemy, enhancing my understanding of JavaScript fundamentals and advanced concepts, including DOM manipulation and asynchronous programming.",
         "date": "October 2022",
-        "image": "hackathons/aichatbot.png"
+        "image": "gallary/udemy.png"
+      },
+      {
+        "title": "React.js Essential Training",
+        "description": "I successfully completed the 'React.js Essential Training' course on LinkedIn Learning, where I gained hands-on experience with React fundamentals, components, state management, and best practices for building dynamic, interactive web applications.",
+        "date": "May 2023",
+        "image": "gallary/in.jpg"
       }
     ]
   }
