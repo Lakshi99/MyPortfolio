@@ -3,10 +3,12 @@
   background-color: #f4f4f9;
   color: #333; */
 
-  margin-top: 76px;
+  margin-top: 80px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  height: 100%vh;
+  margin-bottom: 70px;
 }
 
 .title {
@@ -20,6 +22,7 @@
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 10px; 
 }
 
 .projectsContainer {
@@ -27,7 +30,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px; */
-  margin-top: 37px;
+  margin-top: 17px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,8 +48,8 @@
 
 
 .projectCard {
-  width: 600px;
-  height: 550px;
+  width: 371px;
+  height: 510px;
   background-color: #10315e;  
   
  
@@ -62,7 +65,7 @@
   /* box-shadow: 0 16px 14px 0 #04152d; */
   /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);   */
   padding: 22px;
-  max-width: 320px;
+  /* max-width: 320px; */
 
   background-image: linear-gradient(
     90deg,
@@ -185,7 +188,8 @@
   color: white;
   border: none;
   border-radius: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: -5px;
   display: inline-block;
   align-items: center;
 }
