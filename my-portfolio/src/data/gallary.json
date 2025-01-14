@@ -57,6 +57,18 @@
         "description": "I successfully completed the 'React.js Essential Training' course on LinkedIn Learning, where I gained hands-on experience with React fundamentals, components, state management, and best practices for building dynamic, interactive web applications.",
         "date": "May 2023",
         "image": "gallary/in.jpg"
+      },
+      {
+        "title": "Bootstrap 5 Essential Training",
+        "description": "I Successfully completed LinkedIn Learning's Bootstrap 5 Essential Training, mastering the creation of responsive, mobile-first websites with modern design techniques using Bootstrap.",
+        "date": "May 2023",
+        "image": "gallary/bootin.png"
+      },
+      {
+        "title": "Tailwind CSS 3 Essential Training",
+        "description": "I Completed LinkedIn Learning's Tailwind CSS 3 Essential Training, gaining proficiency in building utility-first, customizable, and scalable web designs using Tailwind CSS.",
+        "date": "May 2023",
+        "image": "gallary/tailin.png"
       }
     ]
   }
