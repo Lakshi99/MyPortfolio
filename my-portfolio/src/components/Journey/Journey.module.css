@@ -3,14 +3,18 @@
 /* General Styles */
 .journeyContainer {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 auto;  
+  padding: -10px;
   /* background: linear-gradient(to bottom, #e3f2fd, #ffffff); */
   color: #d4cccc;
 
   display: flex;
   flex-direction: column;
   gap: 2rem; /* Keeps sections properly spaced */
+  height: 100%vh;
+  margin-top: -17px;
+  margin-bottom: 90px;
+  
 }
 
 
@@ -28,8 +32,8 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 70px;
     margin-left: 30px;
     text-align: center;
 }
