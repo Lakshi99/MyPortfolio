@@ -19,8 +19,8 @@ function App() {
   return (
     <Router>
     <div className={styles.App}>
+    <ParticlesBackground />
       {/* Add the particle background as the first element */}
-      <ParticlesBackground />
       <Navbar />
       <div className="scrollContainer">
       <Routes>
@@ -41,6 +41,7 @@ function App() {
     <Footer />   
 
  </div>
+ 
     
     </div>
     </Router>
