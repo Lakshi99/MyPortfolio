@@ -149,11 +149,35 @@
   @media screen and (max-width: 830px) {
     .container {
       flex-direction: column-reverse;
+      
     }
   
     .content {
       align-items: center;
     }
+
+    .title {
+      font-size: 50px;
+    }
+
+    .heroImg {
+      width: 70%;
+    }
+
+    .title1 {
+      font-size: 30px;
+    }
+
+    .description1 {
+      margin-right: 11px;
+      margin-left: 11px;
+      margin-top: 30px;
+    }
+
+    .contactBtn {
+      margin-top: 20px;
+    }
+    
   }
 
   .highlightName {
