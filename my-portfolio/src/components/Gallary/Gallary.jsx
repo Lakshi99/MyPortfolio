@@ -25,8 +25,8 @@ const Gallary = () => {
   };
 
   return (
-    <section id="gallery">
-      <h2 className={styles.titles1}>Gallery</h2>
+    <section id="gallery" className='gallaryContainer'>
+      <h2 className={styles.titles1}>My Gallery</h2>
       <div className={styles.carousel}>
         <button
           className={`${styles.arrow} ${styles.leftArrow}`}
